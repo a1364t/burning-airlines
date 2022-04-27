@@ -8,7 +8,7 @@
 
 User.destroy_all
 
-u1 = User.create  :email => "joel@ga.co", :username => 'patrick', :password => 'chicken'
+u1 = User.create  :email => "joel@ga.co", :username => 'patrick', :password => 'chicken', :admin => true
 u2 = User.create  :email => "jj@ga.co", :username => 'jj', :password => 'chicken'
 u3 = User.create  :email => "alex@ga.co", :username => 'Alex', :password => 'chicken'
 
