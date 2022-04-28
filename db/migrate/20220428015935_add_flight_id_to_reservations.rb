@@ -1,4 +1,4 @@
-class AddFligtIdToReservation < ActiveRecord::Migration[5.2]
+class AddFlightIdToReservations < ActiveRecord::Migration[5.2]
   def change
     add_column :reservations, :flight_id, :integer
   end

@@ -1,3 +1,3 @@
 class Plane < ApplicationRecord
-    has_many :flights, :optional => true
+    has_many :flights
 end
