@@ -1,6 +1,5 @@
 class PlanesController < ApplicationController
   before_action :set_plane, only: %i[ show edit update destroy ]
-  before_action :check_for_login
 
   # GET /planes or /planes.json
   def index

@@ -42,13 +42,5 @@ f4 = Flight.create  :flight_number => "ET225", :plane => p4, :origin => "DUB", :
 
 puts "#{Flight.count} flights created"
 
-# Flight.destroy_all
-
-# f1 = Flight.create  :flight_number => "QA105", :origin => "LAX", :destination => "WGTN", :date => "31/12/2022"
-# f2 = Flight.create  :flight_number => "BA105", :origin => "HK", :destination => "SING", :date => "11/11/2022"
-# f3 = Flight.create  :flight_number => "JAL665", :origin => "KL", :destination => "BK", :date => "01/07/2022"
-# f4 = Flight.create  :flight_number => "ET225", :origin => "DUB", :destination => "JFK", :date => "06/06/2022"
-
-# puts "#{Flights.count} flights created"
 
 
